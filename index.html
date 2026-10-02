@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Restaurant Menu</title>
+    <style>
+     .menu-card {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #f8c088;
+            border: 3px double rgb(42, 5, 42);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            Color: rgb(24, 24, 24);
+            margin-bottom: 50px;
+            font-size: 50px;
+
+        }
+        .menu-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 90px 40px;
+            max-width: 900px;
+            margin: 0;
+        }
+        .menu-column {
+            width: 100%;
+            text-align: center;
+           
+        }
+        .menu-column ul {
+            list-style-position: outside;
+            display: inline-block;
+            text-align: left;
+            padding-left: 20px;
+            margin: 0;
+        }
+        .drinks-section {
+            margin-top: 50px;
+            text-align: center;
+            grid-column: span 2;
+        }
+        .drinks-section ul {
+            list-style-position: outside;
+            display: inline-block;
+            text-align: left;
+            padding-left: 20px;
+            margin: 0;
+            width: 85%;
+            max-width: 350px;
+        }
+        .drinks-section li {
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+        }
+       .menu-column li, .drink-section li {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 8px;
+        }
+        .menu-column ul , .drinks-section ul {
+            life-style-type: none;
+            display: inline-block;
+            width: 85%;
+            max-width: 350px;
+            padding: 0;
+            margin: 0;
+ }
+      
+    </style>
+</head>
+<body>
+    <div class="menu-card">
+        <em><h1>Spice Corner</h1></em>
+
+      <div class="menu-container"> 
+        <div class="menu-column">
+                <h2>Starters</h2>
+                <ul>
+        <li><span>Corn Soup</span> <span>Rs. 350</span></li>
+        <li><span>Fries Chaska</span> <span>Rs. 280</span></li>
+        <li><span>Paneer Tikka</span> <span>Rs. 650</span></li>
+        <li><span>Chana Chat Special</span> <span>Rs. 300</span></li>
+        <li><span>Dahi Bhalla</span> <span>Rs. 320</span></li>
+        </ul>
+
+        <h2>Main Course</h2>
+        <ul>
+        <li><span>Dal Makhani</span> <span>Rs. 550</span></li>
+        <li><span>Paneer Butter Masala</span> <span>Rs. 680</span></li>
+        <li><span>Butter Chicken</span> <span>Rs.650</span></li>
+        <li><span>Chicken Biryani</span> <span>Rs. 450</span></li>
+        <li><span>Palak Paneer</span> <span>Rs. 500</span></li>
+        <li><span>Veg Biryani</span> <span>Rs. 400</span></li>
+        </ul>
+        </div>
+
+       
+        <div class="menu-column">
+        <h2>Breads</h2>
+        <ul>
+        <li><span>Butter Nan</span> <span>Rs. 100</span></li>
+        <li><span>Garlic Nan</span> <span>Rs. 150</span></li>
+        <li><span>Laccha Paratha</span> <span>Rs. 120</span></li>
+        <li><span>Tandoori Roti</span> <span>Rs. 50</span></li>
+        <li><span>Cheese Nan</span> <span>Rs. 150</span></li>
+        </ul>
+
+        <h2>Deserts</h2>
+        <ul>
+        <li><span>Gulab Jamun</span> <span>Rs. 200</span></li>
+        <li><span>Rasmalai</span> <span>Rs. 250</span></li>
+        <li><span>Gajar ka Halwa</span> <span>Rs. 300</span></li>
+        <li><span>Kulfi Falooda</span> <span>Rs. 280</span></li>
+        <li><span>Fruit Custard</span> <span>Rs. 220</span></li>
+        </ul>
+</div>
+</div>
+      <div class="drinks-section">
+<h2>Drinks</h2>
+        <ul>
+        <li><span>Masala Chai</span> <span>Rs. 120</span></li>
+         <li><span>Sweet Lassi</span> <span>Rs. 200</span></li>
+        <li><span>Mango Lassi</span> <span>Rs. 250</span></li>
+        <li><span>Fresh Lime Soda</span> <span>Rs. 150</span></li>       
+         <li><span>Filter Coffee</span> <span>Rs. 180</span></li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
